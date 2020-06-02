@@ -48,7 +48,7 @@ endif
 " Display tab and trail space
 set list
 set listchars=tab:>-,trail:·
-set guifont=Consolas\ 11
+set guifont=Cascadia\ Code\ 11
 
 " Map
 let mapleader="\<space>"
