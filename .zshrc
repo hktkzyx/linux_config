@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=/snap/bin:$HOME/bin:/usr/local/bin:$PATH
+export PATH=/snap/bin:$HOME/bin:/usr/local/bin:/usr/local/texlive/2020/bin/x86_64-linux:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -74,7 +74,8 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# export MANPATH="/usr/local/man:$MANPATH"
+export MANPATH="/usr/local/man:/usr/local/texlive/2020/texmf-dist/doc/man:$MANPATH"
+export INFOPATH="/usr/local/texlive/2020/texmf-dist/doc/info:$INFOPATH"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -102,7 +103,7 @@ alias pip=pip3
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2>/dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
@@ -114,4 +115,3 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
