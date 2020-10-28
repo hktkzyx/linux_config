@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=/snap/bin:$HOME/bin:/usr/local/bin:/usr/local/texlive/2020/bin/x86_64-linux:$PATH
+export PATH=/snap/bin:$HOME/bin:/usr/local/bin:/usr/local/texlive/2020/bin/x86_64-linux:$HOME/.local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
