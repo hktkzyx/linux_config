@@ -1,7 +1,7 @@
 [user]
 	email = hktkzyx@outlook.com
 	name = hktkzyx
-	signingkey = 848855F0 
+	signingkey = hktkzyx 
 [core]
 	editor = vim
 [init]
