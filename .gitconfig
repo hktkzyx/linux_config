@@ -1,7 +1,10 @@
 [user]
 	email = hktkzyx@outlook.com
 	name = hktkzyx
+	signingkey = 848855F0 
 [core]
 	editor = vim
 [init]
-    defaultBranch = main
+	defaultBranch = main
+[commit]
+	gpgsign = true
