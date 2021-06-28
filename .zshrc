@@ -76,6 +76,7 @@ source $ZSH/oh-my-zsh.sh
 
 export MANPATH="/usr/local/man:/usr/local/texlive/2020/texmf-dist/doc/man:$MANPATH"
 export INFOPATH="/usr/local/texlive/2020/texmf-dist/doc/info:$INFOPATH"
+export GPG_TTY=$(tty)
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
