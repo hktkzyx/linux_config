@@ -1,14 +1,14 @@
 [user]
-	email = hktkzyx@outlook.com
-	name = hktkzyx
-	signingkey = hktkzyx@outlook.com
+    email = hktkzyx@yeah.net
+    name = hktkzyx
+    signingkey = hktkzyx@yeah.net
 [core]
-	editor = vim
+    editor = vim
 [init]
-	defaultBranch = main
+    defaultBranch = main
 [gpg]
-	program = /usr/bin/gpg
+    program = /usr/bin/gpg
 [commit]
-	gpgsign = true
+    gpgsign = true
 [tag]
-	gpgsign = true
+    gpgsign = true
