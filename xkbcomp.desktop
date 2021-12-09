@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Keyboard Layout
+Type=Application
+Exec=sh -c "sleep 1 && [ -f \\$HOME/.Xkeymap ] && xkbcomp \\$HOME/.Xkeymap \\$DISPLAY 2> /dev/null"
+Terminal=false
+NoDisplay=true
+X-GNOME-Autostart-enabled=true
