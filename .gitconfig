@@ -13,4 +13,4 @@
 [tag]
     gpgsign = true
 [gitflow "prefix"]
-	versiontag = v
+    versiontag = v
